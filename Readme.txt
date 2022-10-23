@@ -1,8 +1,5 @@
 1. Input File
-The input file “exchange rates.csv” which is available on the list that contains a 54 × 54 table showing the exchange rates between different currencies; 
-e.g. the number stored at the first row and fifth column shows that one “Kuwaiti Dinar” can be exchanged by 2.802691797“Euros” and the number stored at 
-the fifth row and first column shows that one Euro can be exchanged by 0.349864239 Kuwaiti Dinar. Obviously, the numbers at the main diagonalof this table 
-are all ones (one USD = one USD or one Euro = one Euro).
+The input folder that contains a “exchange rates.csv” file which is available on the list that contains a 54 × 54 table showing the exchange rates between different currencies; e.g. the number stored at the first row and fifth column shows that one “Kuwaiti Dinar” can be exchanged by 2.802691797“Euros” and the number stored at the fifth row and first column shows that one Euro can be exchanged by 0.349864239 Kuwaiti Dinar. Obviously, the numbers at the main diagonalof this table are all ones (one USD = one USD or one Euro = one Euro).
 
 2.Modeling the Problem to a Single-Source Shortest Path Problem
 The problem of finding the most profitable exchange sequence from a source currency to all other currencies can be modeled to a shortest path problem with 
