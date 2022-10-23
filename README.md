@@ -5,7 +5,7 @@ different currencies; e.g. the number stored at the first row and fifth column s
 the number stored at the fifth row and first column shows that one Euro can be exchanged by 0.349864239 Kuwaiti Dinar. Obviously, the numbers at the main 
 diagonalof this table are all ones (one USD = one USD or one Euro = one Euro).
 
-2.Modeling the Problem to a Single-Source Shortest Path Problem
+2. Modeling the Problem to a Single-Source Shortest Path Problem
 
 The problem of finding the most profitable exchange sequence from a source currency to all other currencies can be modeled to a shortest path problem with 
 the following parameters:
@@ -19,7 +19,7 @@ by a Y s.
 e.g. if u → x → w → v is the shortest path from u to v, then the most profitable exchange sequence from currency U to currency V will be to convert 
 currency U to currency X, then covert X to W, and then convert W to V.
 
-3 Solving the Problem using Bellman-Ford Algorithm
+3. Solving the Problem using Bellman-Ford Algorithm
 
 In this project, I'm using the Bellman-Ford algorithm because it is a very simple algorithm to implement and it solves the shortest path problem given a source in a graph with both negative and positive weights. The programming languages that used in this project was Java, the original code is in the 
 src/Tester folde that gets a currency as the source currency from keyboard and finds the rates of most-profitable exchange sequence from the source 
