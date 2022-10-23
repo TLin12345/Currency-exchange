@@ -18,7 +18,7 @@ e.g. if u → x → w → v is the shortest path from u to v, then the most prof
 currency U to currency X, then covert X to W, and then convert W to V.
 
 3 Solving the Problem using Bellman-Ford Algorithm
-In this project, I'm using the Bellman-Ford algorithm because it is a very simple algorithm to implement and it solves the shortest path problem given a 
-source in a graph with both negative and positive weights. The programming languages that used in this project was Java, it gets a currency as the source 
-currency from keyboard and finds the rates of most-profitable exchange sequence from the source currency to all othercurrencies and compare the rates with
-the direct exchange rates.
+In this project, I'm using the Bellman-Ford algorithm because it is a very simple algorithm to implement and it solves the shortest path problem given  
+a source in a graph with both negative and positive weights. The programming languages that used in this project was Java, the original code is in the 
+src/Tester folde that gets a currency as the source currency from keyboard and finds the rates of most-profitable exchange sequence from the source 
+currency to all othercurrencies and compare the rates with the direct exchange rates.
